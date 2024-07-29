@@ -58,7 +58,7 @@ API to scrape target website data
     $ docker compose up
     ```
 
-It serve the api on http://localhost:8000 and for api docs visit http://localhost:8000/docssa
+It serve the api on http://localhost:8000 and for api docs visit http://localhost:8000/docs
 
 
 ## 3. API testing
