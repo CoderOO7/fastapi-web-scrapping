@@ -59,3 +59,17 @@ API to scrape target website data
     ```
 
 It serve the api on http://localhost:8000 and for api docs visit http://localhost:8000/docssa
+
+
+## 3. API testing
+Simply hit the below curl on your terminal for test website scrapping
+
+```bash
+curl -X 'POST' \
+'http://localhost:8000/api/v1/scrape' \
+-H 'accept: application/json' \
+-H 'Content-Type: application/json' \
+-d '{
+"page_limit": 1
+}'
+```
